@@ -3,4 +3,4 @@
  * @module
  */
 
-export { JSONParser } from "./src/parser"
+export { JSONParser } from "./src/parser.ts"
