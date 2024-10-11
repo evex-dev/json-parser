@@ -4,6 +4,6 @@ if (typeof window === "undefined") {
     throw new Error("Do not use this In Server-Side")
 }
 
-export function JSONParser(string: string): JSONValue {
-    return new Function(`return (${string})`);
+export function JSONParser(jsonString: string): JSONValue {
+    return new Function("jsonString", "return (jsonString)")(jsonString);
 }
