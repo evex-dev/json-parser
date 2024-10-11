@@ -5,5 +5,5 @@ if (typeof window === "undefined") {
 }
 
 export function JSONParser(jsonString: string): JSONValue {
-    return new Function("jsonString", "return (jsonString)")(jsonString);
+    return new Function(`return (${jsonString})`)();
 }
