@@ -9,6 +9,9 @@
 
 Fastest JSON Parser in JavaScript
 
+- faster x5 than `JSON.parse`
+- faster x10 than `parse-json`
+
 ```bash
 npx jsr add @evex/json-parser
 pnpx jsr add @evex/json-parser
@@ -19,5 +22,5 @@ deno add @evex/json-parser
 
 ```ts
 import { JSONParser } from "@evex/json-parser";
-console.log(JSONParser(`{ name: "evex", age: 11, likes: ["apple", "banana"], isMan: true }`));
+console.log(JSONParser(`{ "name": "evex", "age": 11, "likes": ["apple", "banana"], "isMan": true }`));
 ```
