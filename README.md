@@ -1,4 +1,4 @@
-# evex-json-parser
+# json-parser
 
 <center>
   <h2>‼‼ Do not use this in Server-Side ‼‼ (If you try to use it by mistake, not works, but it works in a sandboxed worker.)</h2>
