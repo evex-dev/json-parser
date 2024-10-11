@@ -1,13 +1,11 @@
 # evex-json-parser
 
----
 <center>
   <h2>‼‼ Do not use this in Server-Side ‼‼</h2>
 </center>
 <center>
   <h2>‼ Please use this in Client-Side ‼</h2>
 </center>
-***
 
 Fastest JSON Parser in JavaScript
 
