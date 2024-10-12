@@ -8,8 +8,10 @@
   <h2>‼ Please use this in Client-Side ‼</h2>
 </center>
 
-Fastest JSON Parser in JavaScript
-Don't use it in a important project.
+Fastest JSON Parser in JavaScript  
+Don't use it in a important project.  
+Do not run against untrusted json.  
+Use only if the response is from your own server and you trust it.
 
 - faster x5 than `JSON.parse`
 - faster x10 than `parse-json`
