@@ -9,7 +9,7 @@
 </center>
 
 Fastest JSON Parser in JavaScript
-Don't use it in a proper project.
+Don't use it in a important project.
 
 - faster x5 than `JSON.parse`
 - faster x10 than `parse-json`
