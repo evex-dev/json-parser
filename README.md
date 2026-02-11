@@ -27,6 +27,6 @@ deno add @evex/json-parser
 ```
 
 ```ts
-import { JSONParser } from "@evex/json-parser";
-console.log(JSONParser(`{ "name": "evex", "age": 11, "likes": ["apple", "banana"], "isMan": true }`));
+import { jsonParser } from "@evex/json-parser";
+console.log(jsonParser(`{ "name": "evex", "age": 11, "likes": ["apple", "banana"], "isMan": true }`));
 ```
