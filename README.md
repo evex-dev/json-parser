@@ -1,5 +1,7 @@
 # json-parser
 
+this is joke, but works
+
 <center>
   <h2>‼‼ Do not use this in Server-Side ‼‼</h2>
   <p>(If you try to use it by mistake, not works, but it works in a sandboxed worker.)</p>
